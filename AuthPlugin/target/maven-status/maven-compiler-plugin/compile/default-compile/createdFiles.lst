@@ -1,0 +1,16 @@
+com\example\authplugin\commands\AuthCommands$1.class
+com\example\authplugin\listeners\ConnectionListener.class
+com\example\authplugin\listeners\ProtectionListener.class
+com\example\authplugin\util\Messages.class
+com\example\authplugin\auth\AuthManager.class
+com\example\authplugin\commands\SecretGiveCommand.class
+com\example\authplugin\auth\AuthResult.class
+com\example\authplugin\auth\UserStorage.class
+com\example\authplugin\auth\PasswordHasher.class
+com\example\authplugin\Main.class
+com\example\authplugin\commands\AuthCommands.class
+com\example\authplugin\listeners\SecretCodeListener.class
+com\example\authplugin\task\ReminderTask.class
+com\example\authplugin\listeners\AnvilListener.class
+com\example\authplugin\listeners\RestrictionListener.class
+com\example\authplugin\util\CommandLogFilter.class

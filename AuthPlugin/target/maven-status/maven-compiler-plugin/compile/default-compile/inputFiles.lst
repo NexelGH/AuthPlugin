@@ -1,0 +1,15 @@
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\auth\AuthManager.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\auth\AuthResult.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\auth\PasswordHasher.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\auth\UserStorage.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\commands\AuthCommands.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\commands\SecretGiveCommand.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\listeners\AnvilListener.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\listeners\ConnectionListener.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\listeners\ProtectionListener.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\listeners\RestrictionListener.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\listeners\SecretCodeListener.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\Main.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\task\ReminderTask.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\utill\CommandLogFilter.java
+C:\Users\Piotrek\Desktop\AuthPlugin\src\main\java\utill\Messages.java

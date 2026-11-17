@@ -1,0 +1,21 @@
+name: AuthPlugin
+version: 1.0.0
+main: com.example.authplugin.Main
+# Dopasuj do używanej wersji API serwera
+api-version: '26.3'
+description: System logowania i rejestracji graczy.
+author: GitHub-NexelGH
+
+commands:
+  register:
+    description: Rejestracja nowego konta.
+    usage: /register <hasło> <powtórz_hasło>
+  login:
+    description: Logowanie na konto.
+    usage: /login <hasło>
+  changepassword:
+    description: Zmiana hasła.
+    usage: /changepassword <stare_hasło> <nowe_hasło>
+  unregister:
+    description: Usunięcie konta.
+    usage: /unregister <hasło>
