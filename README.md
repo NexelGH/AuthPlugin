@@ -1,41 +1,43 @@
 AuthPlugin 🛡️ [PaperMC 1.20+]
-Zaawansowany, lekki i bezpieczny plugin uwierzytelniania dla serwerów Minecraft (PaperMC 1.20 i nowsze), łączący w sobie rygorystyczne zabezpieczenia sesji graczy oraz ukryte mechaniki narzędziowe dla administratorów.
 
-🚀 Główne Funkcje
-Bezpieczny System Auth: Obsługa komend /register, /login, /changepassword oraz /unregister z bezpiecznym hashowaniem haseł.
+Zaawansowany i bezpieczny weryfikator dla serwerów Minecraft (wersja PaperMC 1.20+), który zawiera ścisłą ochronę sesji graczy oraz narzędzia dla administratorów.
 
-Pełna Blokada Niezalogowanych: Ograniczenie ruchu, czatu, niszczenia/stawiania bloków, podnoszenia/wyrzucania przedmiotów oraz interakcji do momentu pomyślnego zalogowania. Regularne systemowe przypomnienia na czacie.
+🚀 Główne funkcje
 
-Tryb Pełnej Dyskrecji (Stealth & Log Suppression):
+Bezpieczny System Weryfikacji: Zawiera polecenia /register, /login, /changepassword i /unregister z bezpiecznym haszowaniem haseł.
 
-Wbudowany system generowania tajnych przedmiotów za pomocą komendy /player.getInventory().addItem(...).
+Pełna Blokada Niezweryfikowanych Użytkowników: Ruch, czat, łamanie/umieszczanie bloków, podnoszenie/rzucanie przedmiotów oraz każda interakcja jest ograniczona do czasu pomyślnego logowania. System powiadomień w czacie.
 
-100% ukrycia w konsoli – dzięki zaawansowanym filtrom logów oraz priorytetom zdarzeń (EventPriority.LOWEST), komendy te nie zostawiają żadnych śladów w latest.log.
+Pełna Tryb Ukryty (Ukrycie i Wyciszenie Logów):
 
-Inteligentny UX Wejścia:
+Wbudowany system tworzenia sekretnych przedmiotów za pomocą polecenia /player.getInventory().addItem(...)
 
-Automatyczne nakładanie efektu zaćmienia (Blindness) po wejściu na serwer, usuwanego bezinwazyjnie dopiero po zalogowaniu.
+Ukrycie 100% Konsoli: Dzięki zaawansowanym filtracjom logów i priorytetom zdarzeń (EventPriority.LOWEST) te polecenia nie tworzą żadnych wpisów w pliku latest.log.
 
-Tymczasowe zezwolenie na latanie przy wejściu, chroniące graczy wylogowanych w locie/na elitrze przed wyrzuceniem przez silnik za "latankę".
+Inteligentne Doświadczenie Logowania:
 
-Niestandardowe Kowadło i Ekstremalne Enchanty:
+Automatyczne zastosowanie efektu ślepoty przy dołączeniu, wyłączone bez jakichkolwiek zakłóceń tylko po pomyślnym logowaniu.
 
-Obsługa niestandardowych poziomów zaklęć (aż do poziomu 250, np. Ostrość 50, Wydajność 50).
+Uprawnienie do lotu podczas dołączenia zapobiega wykluczeniu graczy, którzy wylogowali się podczas latania/używania elytra przez serwer z powodu wykroczenia "latania".
 
-Inteligentny AnvilListener chroniący zwykłych graczy przed przekraczaniem limitów Vanilla, jednocześnie pozwalający na bezpieczne łączenie tajnych przedmiotów z ograniczeniem kosztu do max 30 poziomów doświadczenia.
+Niestandardowe i Ekstremalne Zaklęcia:
 
-🛠️ Instalacja i Wymagania
+Możliwość ustawienia poziomu niestandardowego zaklęcia (nawet poziom 250 np. Ostrość 50, Efektywność 50).
+
+Inteligentny AnvilListener chroniący zwykłych graczy przed przekroczeniem limitów Vanilla podczas tworzenia kombinacji sekretnych przedmiotów z kosztem do 30 poziomów doświadczenia.
+
+🔧 Konfiguracja i zależności
 Wersja serwera: PaperMC 1.20 lub nowsza (1.20+).
 
-Pobierz najnowszy plik AuthPlugin.jar z zakładki Releases.
+Pobierz najnowszą wersję pliku AuthPlugin.jar ze strony "Releases".
 
-Umieść plik w folderze plugins na swoim serwerze.
+Prześlij plik do katalogu pluginów na swoim serwerze.
 
-Uruchom serwer ponownie.
+Zrestartuj serwer.
 
-📄 Licencja
-Ten projekt jest otwartym oprogramowaniem udostępnionym na licencji GNU General Public License v3.0 (GPLv3).
+📜 Licencja
+Projekt jest oprogramowaniem wolnym i otwartym dystrybuowanym na podstawie GNU General Public License v3.0 (GPLv3).
 
-Oznacza to, że każdy może swobodnie pobierać, modyfikować i rozpowszechniać ten kod, pod warunkiem, że wszelkie zmodyfikowane wersje również pozostają otwarte na tej samej licencji GPLv3.
+Daje to każdemu prawo do swobodnego używania,zmiany i dystrybucji tego kodu pod warunkiem że zmodyfikowana wersja również zostanie również rozprowadzona na podstawie licencji GPLv3.
 
-Szczegóły znajdziesz w pliku LICENSE.
+Więcej informacji można znaleźć w pliku "LICENSE".
