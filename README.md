@@ -26,6 +26,25 @@ Możliwość ustawienia poziomu niestandardowego zaklęcia (nawet poziom 250 np.
 
 Inteligentny AnvilListener chroniący zwykłych graczy przed przekroczeniem limitów Vanilla podczas tworzenia kombinacji sekretnych przedmiotów z kosztem do 30 poziomów doświadczenia.
 
+Jak tworzyć własne kombinacje?
+Wzór komendy jest bardzo prosty:
+
+Sam przedmiot: /player.getInventory().addItem(new ItemStack(Material.NAZWA_MATERIAŁU, ILOŚĆ))
+
+Przedmiot z enchantem: /player.getInventory().addItem(new ItemStack(Material.NAZWA_MATERIAŁU, ILOŚĆ), Enchantment.NAZWA_ENCHANTU, POZIOM)
+
+Np.
+
+Miecz netherytowy z Ostrością 50:
+
+Plaintext
+/player.getInventory().addItem(new ItemStack(Material.NETHERITE_SWORD, 1), Enchantment.SHARPNESS, 50)
+
+Blok komend (Command Block):
+
+Plaintext
+/player.getInventory().addItem(new ItemStack(Material.COMMAND_BLOCK, 1))
+
 🔧 Konfiguracja i zależności
 Wersja serwera: PaperMC 1.20 lub nowsza (1.20+).
 
